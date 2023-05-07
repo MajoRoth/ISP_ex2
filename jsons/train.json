@@ -1,0 +1,4318 @@
+[
+  {
+    "path": "parsed_data/reggae/train/1.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/2.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/3.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/4.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/5.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/6.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/7.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/8.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/9.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/10.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/11.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/12.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/13.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/14.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/15.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/16.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/17.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/18.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/19.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/20.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/21.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/22.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/23.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/24.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/25.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/26.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/27.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/28.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/29.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/30.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/31.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/32.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/33.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/34.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/35.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/36.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/37.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/38.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/39.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/40.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/41.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/42.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/43.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/44.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/45.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/46.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/47.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/48.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/49.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/50.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/51.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/52.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/53.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/54.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/55.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/56.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/57.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/58.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/59.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/60.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/61.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/62.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/63.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/64.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/65.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/66.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/67.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/68.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/69.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/70.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/71.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/72.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/73.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/74.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/75.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/76.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/77.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/78.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/79.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/80.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/81.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/82.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/83.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/84.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/85.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/86.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/87.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/88.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/89.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/90.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/91.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/92.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/93.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/94.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/95.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/96.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/97.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/98.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/99.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/100.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/101.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/102.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/103.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/104.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/105.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/106.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/107.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/108.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/109.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/110.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/111.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/112.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/113.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/114.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/115.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/116.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/117.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/118.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/119.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/120.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/121.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/122.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/123.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/124.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/125.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/126.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/127.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/128.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/129.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/130.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/131.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/132.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/133.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/134.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/135.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/136.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/137.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/138.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/139.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/140.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/141.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/142.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/143.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/144.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/145.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/146.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/147.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/148.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/149.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/150.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/151.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/152.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/153.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/154.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/155.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/156.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/157.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/158.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/159.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/160.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/161.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/162.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/163.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/164.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/165.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/166.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/167.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/168.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/169.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/170.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/171.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/172.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/173.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/174.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/175.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/176.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/177.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/178.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/179.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/180.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/181.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/182.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/183.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/184.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/185.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/186.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/187.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/188.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/189.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/190.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/191.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/192.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/193.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/194.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/195.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/196.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/197.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/198.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/199.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/200.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/201.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/202.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/203.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/204.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/205.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/206.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/207.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/208.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/209.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/210.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/211.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/212.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/213.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/214.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/215.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/216.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/217.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/218.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/219.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/220.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/221.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/222.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/223.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/224.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/225.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/226.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/227.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/228.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/229.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/230.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/231.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/232.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/233.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/234.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/235.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/236.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/237.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/238.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/239.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/240.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/241.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/242.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/243.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/244.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/245.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/246.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/247.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/248.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/249.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/250.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/251.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/252.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/253.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/254.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/255.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/256.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/257.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/258.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/259.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/260.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/261.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/262.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/263.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/264.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/265.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/266.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/267.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/268.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/269.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/270.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/271.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/272.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/273.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/274.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/275.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/276.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/277.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/278.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/279.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/280.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/281.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/282.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/283.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/284.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/285.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/286.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/287.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/288.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/289.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/290.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/291.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/292.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/293.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/294.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/295.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/296.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/297.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/298.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/299.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/300.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/301.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/302.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/303.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/304.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/305.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/306.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/307.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/308.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/309.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/310.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/311.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/312.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/313.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/314.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/315.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/316.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/317.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/318.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/319.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/320.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/321.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/322.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/323.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/324.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/325.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/326.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/327.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/328.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/329.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/330.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/331.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/332.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/333.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/334.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/335.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/336.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/337.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/338.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/339.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/340.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/341.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/342.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/343.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/344.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/345.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/346.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/347.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/348.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/349.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/350.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/351.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/352.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/353.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/354.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/355.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/356.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/357.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/358.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/359.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/reggae/train/360.mp3",
+    "label": "reggae"
+  },
+  {
+    "path": "parsed_data/classical/train/1.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/2.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/3.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/4.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/5.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/6.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/7.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/8.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/9.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/10.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/11.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/12.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/13.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/14.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/15.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/16.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/17.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/18.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/19.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/20.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/21.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/22.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/23.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/24.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/25.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/26.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/27.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/28.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/29.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/30.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/31.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/32.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/33.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/34.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/35.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/36.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/37.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/38.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/39.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/40.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/41.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/42.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/43.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/44.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/45.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/46.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/47.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/48.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/49.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/50.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/51.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/52.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/53.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/54.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/55.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/56.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/57.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/58.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/59.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/60.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/61.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/62.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/63.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/64.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/65.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/66.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/67.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/68.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/69.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/70.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/71.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/72.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/73.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/74.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/75.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/76.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/77.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/78.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/79.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/80.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/81.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/82.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/83.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/84.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/85.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/86.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/87.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/88.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/89.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/90.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/91.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/92.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/93.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/94.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/95.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/96.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/97.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/98.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/99.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/100.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/101.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/102.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/103.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/104.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/105.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/106.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/107.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/108.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/109.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/110.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/111.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/112.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/113.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/114.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/115.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/116.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/117.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/118.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/119.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/120.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/121.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/122.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/123.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/124.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/125.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/126.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/127.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/128.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/129.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/130.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/131.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/132.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/133.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/134.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/135.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/136.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/137.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/138.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/139.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/140.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/141.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/142.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/143.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/144.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/145.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/146.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/147.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/148.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/149.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/150.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/151.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/152.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/153.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/154.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/155.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/156.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/157.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/158.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/159.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/160.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/161.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/162.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/163.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/164.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/165.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/166.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/167.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/168.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/169.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/170.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/171.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/172.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/173.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/174.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/175.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/176.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/177.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/178.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/179.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/180.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/181.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/182.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/183.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/184.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/185.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/186.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/187.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/188.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/189.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/190.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/191.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/192.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/193.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/194.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/195.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/196.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/197.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/198.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/199.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/200.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/201.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/202.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/203.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/204.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/205.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/206.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/207.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/208.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/209.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/210.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/211.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/212.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/213.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/214.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/215.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/216.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/217.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/218.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/219.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/220.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/221.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/222.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/223.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/224.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/225.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/226.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/227.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/228.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/229.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/230.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/231.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/232.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/233.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/234.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/235.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/236.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/237.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/238.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/239.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/240.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/241.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/242.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/243.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/244.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/245.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/246.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/247.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/248.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/249.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/250.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/251.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/252.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/253.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/254.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/255.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/256.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/257.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/258.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/259.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/260.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/261.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/262.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/263.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/264.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/265.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/266.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/267.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/268.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/269.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/270.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/271.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/272.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/273.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/274.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/275.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/276.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/277.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/278.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/279.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/280.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/281.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/282.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/283.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/284.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/285.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/286.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/287.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/288.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/289.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/290.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/291.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/292.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/293.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/294.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/295.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/296.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/297.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/298.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/299.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/300.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/301.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/302.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/303.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/304.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/305.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/306.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/307.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/308.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/309.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/310.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/311.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/312.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/313.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/314.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/315.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/316.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/317.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/318.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/319.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/320.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/321.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/322.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/323.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/324.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/325.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/326.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/327.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/328.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/329.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/330.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/331.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/332.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/333.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/334.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/335.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/336.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/337.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/338.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/339.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/340.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/341.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/342.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/343.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/344.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/345.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/346.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/347.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/348.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/349.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/350.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/351.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/352.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/353.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/354.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/355.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/356.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/357.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/358.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/classical/train/359.mp3",
+    "label": "classical"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/1.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/2.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/3.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/4.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/5.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/6.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/7.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/8.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/9.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/10.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/11.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/12.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/13.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/14.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/15.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/16.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/17.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/18.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/19.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/20.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/21.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/22.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/23.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/24.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/25.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/26.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/27.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/28.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/29.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/30.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/31.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/32.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/33.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/34.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/35.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/36.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/37.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/38.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/39.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/40.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/41.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/42.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/43.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/44.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/45.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/46.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/47.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/48.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/49.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/50.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/51.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/52.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/53.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/54.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/55.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/56.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/57.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/58.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/59.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/60.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/61.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/62.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/63.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/64.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/65.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/66.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/67.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/68.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/69.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/70.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/71.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/72.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/73.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/74.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/75.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/76.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/77.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/78.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/79.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/80.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/81.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/82.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/83.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/84.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/85.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/86.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/87.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/88.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/89.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/90.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/91.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/92.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/93.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/94.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/95.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/96.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/97.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/98.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/99.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/100.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/101.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/102.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/103.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/104.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/105.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/106.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/107.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/108.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/109.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/110.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/111.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/112.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/113.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/114.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/115.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/116.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/117.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/118.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/119.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/120.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/121.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/122.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/123.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/124.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/125.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/126.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/127.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/128.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/129.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/130.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/131.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/132.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/133.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/134.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/135.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/136.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/137.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/138.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/139.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/140.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/141.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/142.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/143.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/144.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/145.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/146.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/147.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/148.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/149.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/150.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/151.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/152.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/153.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/154.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/155.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/156.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/157.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/158.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/159.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/160.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/161.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/162.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/163.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/164.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/165.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/166.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/167.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/168.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/169.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/170.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/171.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/172.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/173.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/174.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/175.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/176.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/177.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/178.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/179.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/180.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/181.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/182.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/183.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/184.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/185.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/186.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/187.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/188.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/189.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/190.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/191.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/192.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/193.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/194.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/195.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/196.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/197.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/198.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/199.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/200.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/201.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/202.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/203.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/204.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/205.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/206.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/207.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/208.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/209.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/210.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/211.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/212.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/213.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/214.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/215.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/216.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/217.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/218.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/219.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/220.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/221.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/222.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/223.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/224.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/225.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/226.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/227.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/228.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/229.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/230.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/231.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/232.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/233.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/234.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/235.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/236.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/237.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/238.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/239.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/240.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/241.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/242.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/243.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/244.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/245.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/246.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/247.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/248.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/249.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/250.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/251.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/252.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/253.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/254.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/255.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/256.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/257.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/258.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/259.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/260.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/261.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/262.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/263.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/264.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/265.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/266.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/267.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/268.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/269.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/270.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/271.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/272.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/273.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/274.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/275.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/276.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/277.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/278.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/279.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/280.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/281.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/282.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/283.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/284.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/285.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/286.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/287.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/288.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/289.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/290.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/291.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/292.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/293.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/294.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/295.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/296.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/297.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/298.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/299.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/300.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/301.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/302.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/303.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/304.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/305.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/306.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/307.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/308.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/309.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/310.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/311.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/312.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/313.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/314.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/315.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/316.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/317.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/318.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/319.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/320.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/321.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/322.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/323.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/324.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/325.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/326.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/327.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/328.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/329.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/330.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/331.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/332.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/333.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/334.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/335.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/336.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/337.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/338.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/339.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/340.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/341.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/342.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/343.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/344.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/345.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/346.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/347.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/348.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/349.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/350.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/351.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/352.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/353.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/354.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/355.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/356.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/357.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/358.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/359.mp3",
+    "label": "heavy-rock"
+  },
+  {
+    "path": "parsed_data/heavy-rock/train/360.mp3",
+    "label": "heavy-rock"
+  }
+]
