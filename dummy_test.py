@@ -5,7 +5,7 @@ if __name__ == "__main__":
     handler = ClassifierHandler()
 
     # check that training is working
-    training_params = TrainingParameters(batch_size=1, num_epochs=1)
+    training_params = TrainingParameters(batch_size=32, num_epochs=1)
     try:
         handler.train_new_model(training_params)
         print("Train dummy test passed")
