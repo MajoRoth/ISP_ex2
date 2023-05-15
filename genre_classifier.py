@@ -70,7 +70,7 @@ class MusicClassifier:
     You should Implement your classifier object here
     """
 
-    def __init__(self, opt_params: OptimizationParameters, encoding_dim=128, **kwargs):
+    def __init__(self, opt_params: OptimizationParameters = None, encoding_dim=128, **kwargs):
         """
         This defines the classifier object.
         - You should define your weights and biases as class components here.
@@ -78,11 +78,13 @@ class MusicClassifier:
         - You should use `opt_params` for your optimization and you are welcome to experiment
         """
         self.opt_params = opt_params
-        self.encoding_dim = encoding_dim
-        self.num_classes = len(label2genre)
+        self.encoding_dim = encoding_dim  # input size
+        self.num_classes = len(label2genre)  # output size
 
         self.W = torch.randn((self.encoding_dim, self.num_classes))
-        self.b = torch.zeros((self.num_classes))
+        self.b = torch.zeros((1, self.num_classes))
+
+        self.loss = list()
 
     def exctract_feats(self, wavs: torch.Tensor):
         """
@@ -105,8 +107,8 @@ class MusicClassifier:
         this function performs a forward pass throuh the model, outputting scores for every class.
         feats: batch of extracted faetures
         """
-        return torch.matmul(self.W, feats) + self.b
-        # TODO - softmax here? - @Amit
+        Z = torch.matmul(feats, torch.transpose(self.W, 0, 1)) + self.b
+        return MusicClassifier.softmax(Z)
 
 
     def backward(self, feats: torch.Tensor, output_scores: torch.Tensor, labels: torch.Tensor):
@@ -120,11 +122,14 @@ class MusicClassifier:
         We thought it may result in less coding needed if you are to apply it here, hence 
         OptimizationParameters are passed to the initialization function
         """
-        # TODO - @Amit
-        # loss - softmax here??
-        # grads
-        # update
-        raise NotImplementedError("optional, function is not implemented")
+        y_labeled = torch.nn.functional.one_hot(labels)
+        error = y_labeled - output_scores
+        self.W += self.opt_params.learning_rate * torch.matmul(
+            torch.transpose(error, 0, 1), feats
+        )
+
+        # I didnt updated the biased, kept them 0 for now.
+
 
     def train_step(self, raw_features):
         features = self.exctract_feats(raw_features['waveform'])
@@ -147,6 +152,27 @@ class MusicClassifier:
         """
         return torch.argmax(self.forward(self.exctract_feats(wavs)), dim=-1)
 
+    def save(self, name: str):
+        m = {'W': self.W, 'b': self.b, 'opt': OptimizationParameters}
+        torch.save(m, f"/model_files/{name}.pt")
+
+    def load(self, name: str):
+        loaded = torch.load(f"/model_files/{name}.pt")
+        self.W = loaded["W"]
+        self.b = loaded["b"]
+        self.opt_params = loaded['opt']
+
+    @staticmethod
+    def softmax(input):
+        shifted_input = input - np.max(input)
+        exp_input = np.exp(shifted_input)
+        softmax_probs = exp_input / np.sum(exp_input)
+        return softmax_probs
+
+    @staticmethod
+    def cross_entropy(y, probs):
+        return -1 * torch.mean(y * torch.log(probs))
+
 
 
 class ClassifierHandler:
@@ -166,13 +192,15 @@ class ClassifierHandler:
 
         music_classifier = MusicClassifier(opt_params)
 
-
         for epoch in range(training_parameters.num_epochs):
             tq = tqdm(train_dataloader, desc=f'Epoch {epoch}')
             for raw_features in tq: # [b, T]
                 music_classifier.train_step(raw_features)
 
-        # TODO - save model to json - @Amit
+            # TODO @Alon - How can we calculate the loss using the implementation we chose?
+            # loss = MusicClassifier.cross_entropy()
+
+        music_classifier.save("model")
         raise NotImplementedError("function is not implemented")
 
     @staticmethod
@@ -181,7 +209,7 @@ class ClassifierHandler:
         This function should construct a 'MusicClassifier' object, load it's trained weights / 
         hyperparameters and return the loaded model
         """
-        # TODO - load from json - @Amit
-        raise NotImplementedError("function is not implemented")
-    
+        music_classifier = MusicClassifier()
+        music_classifier.load("model")
+
     
