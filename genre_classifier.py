@@ -13,6 +13,8 @@ from torch.utils.data import Dataset
 import json
 import librosa
 
+from features import zero_crossing_rate, extract_rms
+
 
 class Genre(Enum):
     """
@@ -62,7 +64,7 @@ class OptimizationParameters:
     This dataclass defines optimization related hyper-parameters to be passed to the model.
     feel free to add/change it as you see fit.
     """
-    learning_rate: float = 0.001
+    learning_rate: float = 0.005
 
 
 class MusicClassifier:
@@ -70,7 +72,7 @@ class MusicClassifier:
     You should Implement your classifier object here
     """
 
-    def __init__(self, opt_params: OptimizationParameters = None, encoding_dim=128, **kwargs):
+    def __init__(self, opt_params: OptimizationParameters = None, encoding_dim=261, **kwargs):
         """
         This defines the classifier object.
         - You should define your weights and biases as class components here.
@@ -80,9 +82,9 @@ class MusicClassifier:
         self.opt_params = opt_params
         self.encoding_dim = encoding_dim  # input size
         self.num_classes = len(label2genre)  # output size
-
-        self.W = torch.randn((self.encoding_dim, self.num_classes))
-        self.b = torch.zeros((1, self.num_classes))
+        INIT_STD = 0.05
+        self.W = torch.randn((self.encoding_dim+1, self.num_classes)) * INIT_STD  # + 1 for bias term
+        # self.b = torch.zeros((1, self.num_classes))
 
         self.loss = list()
 
@@ -93,22 +95,23 @@ class MusicClassifier:
 
         Return: [batch, encoding_dim]
         """
-
-        # TODO - @Alon
-        # - Pick window size
-        # - Amplitude envelope
-        # - RMS
-        # - Zero crossing rate
-        # - concatenate all feature types to a 1-D vector
-        raise NotImplementedError("optional, function is not implemented")
+        zcr = zero_crossing_rate(wavs)
+        rms_per_window = extract_rms(wavs)
+        feats = torch.concat((zcr.unsqueeze(1), rms_per_window), dim=-1)
+        b = feats.shape[0]
+        feats = torch.concat((feats, torch.ones((b, 1))), dim=-1) # adding ones for bias term
+        return feats
 
     def forward(self, feats: torch.Tensor) -> tp.Any:
         """
         this function performs a forward pass throuh the model, outputting scores for every class.
         feats: batch of extracted faetures
         """
-        Z = torch.matmul(feats, torch.transpose(self.W, 0, 1)) + self.b
-        return MusicClassifier.softmax(Z)
+        # feats [b, d]
+        # W [d, 3]
+        # Z = torch.matmul(feats, self.W) + self.b
+        Z = torch.matmul(feats, self.W)
+        return torch.softmax(Z, dim=-1) #MusicClassifier.softmax(Z)
 
 
     def backward(self, feats: torch.Tensor, output_scores: torch.Tensor, labels: torch.Tensor):
@@ -124,9 +127,10 @@ class MusicClassifier:
         """
         y_labeled = torch.nn.functional.one_hot(labels)
         error = y_labeled - output_scores
-        self.W += self.opt_params.learning_rate * torch.matmul(
-            torch.transpose(error, 0, 1), feats
-        )
+        batch = feats.shape[0]
+        self.grad = (1 / float(batch)) * -torch.matmul(error.T, feats)
+        self.W -= self.opt_params.learning_rate * self.grad.T
+
 
         # I didnt updated the biased, kept them 0 for now.
 
@@ -134,8 +138,15 @@ class MusicClassifier:
     def train_step(self, raw_features):
         features = self.exctract_feats(raw_features['waveform'])
         y_preds = self.forward(features)
-        # labels = torch.nn.functional.one_hot(raw_features['label'], num_classes=len(label2genre)) # ???
+
+        labels_onehot = torch.nn.functional.one_hot(raw_features['label'])
+
+        loss = -torch.log((y_preds * labels_onehot).sum(dim=-1)).mean()
+        accuracy = (torch.argmax(y_preds, dim=-1) == raw_features['label']).float().mean()
+
         self.backward(features, output_scores=y_preds, labels=raw_features['label'])
+
+        return loss, accuracy
 
     def get_weights_and_biases(self):
         """
@@ -195,10 +206,12 @@ class ClassifierHandler:
         for epoch in range(training_parameters.num_epochs):
             tq = tqdm(train_dataloader, desc=f'Epoch {epoch}')
             for raw_features in tq: # [b, T]
-                music_classifier.train_step(raw_features)
+                loss, accuracy = music_classifier.train_step(raw_features)
 
-            # TODO @Alon - How can we calculate the loss using the implementation we chose?
-            # loss = MusicClassifier.cross_entropy()
+                tq.set_postfix(loss=f"{loss:.4f}", accuracy=f"{accuracy:.4f}",
+                               W_norm=f"{music_classifier.W.norm():.4f}",
+                               grad_norm=f"{music_classifier.grad.norm():.4f}")
+
 
         music_classifier.save("model")
         raise NotImplementedError("function is not implemented")
