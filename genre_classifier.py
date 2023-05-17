@@ -214,7 +214,6 @@ class ClassifierHandler:
 
 
         music_classifier.save("model")
-        raise NotImplementedError("function is not implemented")
 
     @staticmethod
     def get_pretrained_model() -> MusicClassifier:
