@@ -83,8 +83,8 @@ class MusicClassifier:
         self.encoding_dim = encoding_dim  # input size
         self.num_classes = len(label2genre)  # output size
         INIT_STD = 0.05
-        self.W = torch.randn((self.encoding_dim+1, self.num_classes)) * INIT_STD  # + 1 for bias term
-        # self.b = torch.zeros((1, self.num_classes))
+        self.W = torch.randn((self.encoding_dim, self.num_classes)) * INIT_STD
+        self.b = torch.zeros((1, self.num_classes))
 
         self.loss = list()
 
@@ -98,8 +98,6 @@ class MusicClassifier:
         zcr = zero_crossing_rate(wavs)
         rms_per_window = extract_rms(wavs)
         feats = torch.concat((zcr.unsqueeze(1), rms_per_window), dim=-1)
-        b = feats.shape[0]
-        feats = torch.concat((feats, torch.ones((b, 1))), dim=-1) # adding ones for bias term
         return feats
 
     def forward(self, feats: torch.Tensor) -> tp.Any:
@@ -109,8 +107,7 @@ class MusicClassifier:
         """
         # feats [b, d]
         # W [d, 3]
-        # Z = torch.matmul(feats, self.W) + self.b
-        Z = torch.matmul(feats, self.W)
+        Z = torch.matmul(feats, self.W) + self.b
         return torch.softmax(Z, dim=-1) #MusicClassifier.softmax(Z)
 
 
@@ -128,8 +125,11 @@ class MusicClassifier:
         y_labeled = torch.nn.functional.one_hot(labels)
         error = y_labeled - output_scores
         batch = feats.shape[0]
+        feats = torch.concat((feats, torch.ones((batch, 1))), dim=-1) # adding ones for bias term
         self.grad = (1 / float(batch)) * -torch.matmul(error.T, feats)
-        self.W -= self.opt_params.learning_rate * self.grad.T
+        self.W -= self.opt_params.learning_rate * self.grad[:, :-1].T
+        self.b -= self.opt_params.learning_rate * self.grad[:, -1].unsqueeze(0)
+
 
 
         # I didnt updated the biased, kept them 0 for now.
@@ -165,10 +165,10 @@ class MusicClassifier:
 
     def save(self, name: str):
         m = {'W': self.W, 'b': self.b, 'opt': OptimizationParameters}
-        torch.save(m, f"/model_files/{name}.pt")
+        torch.save(m, f"model_files/{name}.pt")
 
     def load(self, name: str):
-        loaded = torch.load(f"/model_files/{name}.pt")
+        loaded = torch.load(f"model_files/{name}.pt")
         self.W = loaded["W"]
         self.b = loaded["b"]
         self.opt_params = loaded['opt']
@@ -210,6 +210,7 @@ class ClassifierHandler:
 
                 tq.set_postfix(loss=f"{loss:.4f}", accuracy=f"{accuracy:.4f}",
                                W_norm=f"{music_classifier.W.norm():.4f}",
+                               b_norm=f"{music_classifier.b.norm():.4f}",
                                grad_norm=f"{music_classifier.grad.norm():.4f}")
 
 
