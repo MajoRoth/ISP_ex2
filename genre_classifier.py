@@ -1,18 +1,18 @@
 from abc import abstractmethod
 
+import librosa.feature
 import numpy as np
 from enum import Enum
 import typing as tp
 from dataclasses import dataclass
+
+import torch
 from tqdm import tqdm
 
 
 from torch.utils.data import Dataset
 import json
 import torchaudio
-
-from features import *
-
 
 class Genre(Enum):
     """
@@ -72,7 +72,7 @@ class MusicClassifier:
     You should Implement your classifier object here
     """
 
-    def __init__(self, opt_params: OptimizationParameters = None, encoding_dim=5461, **kwargs):
+    def __init__(self, opt_params: OptimizationParameters = None, encoding_dim=40, **kwargs):
         """
         This defines the classifier object.
         - You should define your weights and biases as class components here.
@@ -83,12 +83,36 @@ class MusicClassifier:
         self.encoding_dim = encoding_dim  # input size
         self.num_classes = len(label2genre)  # output size
 
-        INIT_STD = 0.05
+        INIT_STD = 0.01
         self.W = torch.randn((self.encoding_dim, self.num_classes)) * INIT_STD
         self.b = torch.zeros((1, self.num_classes))
 
         self.loss = list()
         self.data_sr = 22050
+
+        self.features_means = torch.zeros((1, self.encoding_dim)).float()
+        self.features_stds = torch.ones((1, self.encoding_dim)).float()
+
+    def estimate_feats_distribution(self, train_dataloader):
+        all_train_feats = None
+        NUM_BATCHS_TO_USE = 10
+        for i, raw_features in enumerate(train_dataloader):
+            feats = self.exctract_feats(raw_features['waveform'])
+            if all_train_feats is None:
+                all_train_feats = feats
+            else:
+                all_train_feats = torch.concat((all_train_feats, feats), dim=0)
+            if i > NUM_BATCHS_TO_USE:
+                break
+            print(f"estimating features distribution - i: {i}/{NUM_BATCHS_TO_USE}")
+
+        self.features_means = all_train_feats.mean(dim=0)
+        self.features_stds = all_train_feats.std(dim=0)
+
+
+    def normalized_features(self, features):
+        return (features - self.features_means) / self.features_stds
+
 
     def exctract_feats(self, wavs: torch.Tensor):
         """
@@ -98,33 +122,53 @@ class MusicClassifier:
         Return: [batch, encoding_dim]
         """
 
-        # mean and std per feature category (empirical by training set)
-        RMS_EMPIRICAL_MEAN = 0.1
-        RMS_EMPIRICAL_STD = 0.07
-        ZCR_EMPIRICAL_MEAN = 0.1
-        ZCR_EMPIRICAL_STD = 0.1
-        MFCC_EMPIRICAL_MEAN = -2.0
-        MFCC_EMPIRICAL_STD = 60.0
+        WIN_LEN = 2048
+        HOP_LEN = 1024
 
-        b, audio_channels, seq_len = wavs.shape
+        b, audio_channels, n = wavs.shape
         assert audio_channels == 1 and "assuming mono"
         wavs = wavs[:, 0, :]
 
-        # audio normalization
-        NORMALIZE_AUDIO = True
-        if NORMALIZE_AUDIO:
-            DESIRED_RMS = 0.1
-            global_rms = torch.sqrt((wavs ** 2).mean(dim=-1))
-            wavs = DESIRED_RMS * (wavs / torch.clamp(global_rms[:, None], min=1e-5))
+        # feature extraction
+        wavs_numpy = wavs.numpy()
 
-        # feature extraction and normalization
-        zcr = (zero_crossing_rate(wavs) - ZCR_EMPIRICAL_MEAN) / ZCR_EMPIRICAL_STD
-        rms_per_window = (extract_rms(wavs) - RMS_EMPIRICAL_MEAN) / RMS_EMPIRICAL_STD
-        mfccs = (extract_mfccs(wavs, self.data_sr) - MFCC_EMPIRICAL_MEAN) / MFCC_EMPIRICAL_STD
+        # zero crossing rate
+        zcr = librosa.feature.zero_crossing_rate(y=wavs_numpy,frame_length=WIN_LEN, hop_length=HOP_LEN)[:, 0, :]
+        zcr = np.concatenate((np.mean(zcr, axis=-1, keepdims=True), np.std(zcr, axis=-1, keepdims=True)), axis=-1)
 
-        # feature concatenation
-        feats = torch.concat((zcr.unsqueeze(1), rms_per_window, mfccs), dim=-1)
-        return feats
+        # mfcc
+        mfccs = librosa.feature.mfcc(y=wavs_numpy, sr=self.data_sr,
+                                     n_fft=WIN_LEN, hop_length=HOP_LEN)
+        mfccs = np.mean(mfccs, axis=-1).reshape((b, -1))
+
+        # chroma
+        chroma_stft = librosa.feature.chroma_stft(y=wavs_numpy, sr=self.data_sr, n_chroma=12,
+                                                  n_fft=WIN_LEN, hop_length=HOP_LEN)
+        chroma_stft = np.mean(chroma_stft, axis=-1).reshape((b, -1))
+
+        # spec centroid
+        spec_centroid = librosa.feature.spectral_centroid(y=wavs_numpy, sr=self.data_sr,
+                                                          n_fft=WIN_LEN, hop_length=HOP_LEN)[:, 0, :]
+        spec_centroid = \
+            np.concatenate((np.mean(spec_centroid, axis=-1, keepdims=True),
+                            np.std(spec_centroid, axis=-1, keepdims=True)), axis=-1)
+
+        # rms
+        rms = librosa.feature.rms(y=wavs[None, :, :],
+                                  frame_length=WIN_LEN, hop_length=HOP_LEN)[0, :, 0, :]
+
+        # rms derivative
+        d_rms = rms[:, 1:] - rms[:, :-1]
+
+        rms = np.concatenate((np.mean(rms, axis=-1, keepdims=True), np.std(rms, axis=-1, keepdims=True)), axis=-1)
+        d_rms = np.concatenate((np.mean(d_rms, axis=-1, keepdims=True), np.std(d_rms, axis=-1, keepdims=True)), axis=-1)
+
+        # concat all features
+        feats = np.concatenate((zcr, mfccs, chroma_stft, spec_centroid, rms, d_rms), axis=-1)
+        feats = torch.from_numpy(feats).float()
+
+        # normalize
+        return self.normalized_features(feats)
 
     def forward(self, feats: torch.Tensor) -> tp.Any:
         """
@@ -147,13 +191,21 @@ class MusicClassifier:
         We thought it may result in less coding needed if you are to apply it here, hence 
         OptimizationParameters are passed to the initialization function
         """
+
+        CLASS_IMPORTANCE = torch.tensor([1.0, 1.0, 10.0]).unsqueeze(0) # boosting Raggae genre on which learning was slower
+
         gt_scores = torch.nn.functional.one_hot(labels)
 
         # grad calculation
-        error = gt_scores - output_scores
+        error = (gt_scores - output_scores) * CLASS_IMPORTANCE
         batch = feats.shape[0]
         feats = torch.concat((feats, torch.ones((batch, 1))), dim=-1)  # adding ones for bias term
         self.grad = (1 / float(batch)) * -torch.matmul(error.T, feats)  # error * x  is the analytic gradient
+
+        REGULARIZATION = True
+        if REGULARIZATION:
+            MU = 0.01
+            self.grad += 2 * MU * torch.concat((self.W, self.b), dim=0).T
 
         # update W and b
         self.W -= self.opt_params.learning_rate * self.grad[:, :-1].T
@@ -162,6 +214,7 @@ class MusicClassifier:
     def train_step(self, raw_features):
         # forward
         features = self.exctract_feats(raw_features['waveform'])
+
         y_preds = self.forward(features)
 
         # loss and accuracy calculation for evaluation purposes
@@ -209,13 +262,19 @@ class MusicClassifier:
         return torch.argmax(self.forward(self.exctract_feats(wavs)), dim=-1)
 
     def save(self, name: str):
-        m = {'W': self.W, 'b': self.b, 'opt': OptimizationParameters}
+        m = {'W': self.W,
+             'b': self.b,
+             'feats_means': self.features_means,
+             'feats_stds': self.features_stds,
+             'opt': OptimizationParameters}
         torch.save(m, f"model_files/{name}.pt")
 
     def load(self, name: str):
         loaded = torch.load(f"model_files/{name}.pt")
         self.W = loaded["W"]
         self.b = loaded["b"]
+        self.features_means = loaded["feats_means"]
+        self.features_stds = loaded["feats_stds"]
         self.opt_params = loaded['opt']
 
     @staticmethod
@@ -281,6 +340,7 @@ class ClassifierHandler:
 
         music_classifier = MusicClassifier(opt_params)
 
+        music_classifier.estimate_feats_distribution(train_dataloader)
         for epoch in range(training_parameters.num_epochs):
 
             tq = tqdm(train_dataloader, desc=f'Epoch {epoch}')
