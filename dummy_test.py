@@ -8,7 +8,7 @@ if __name__ == "__main__":
     handler = ClassifierHandler()
 
     # check that training is working
-    TRAIN = False
+    TRAIN = True
     if TRAIN:
         training_params = TrainingParameters(batch_size=32, num_epochs=20)
         try:
