@@ -13,7 +13,7 @@ from torch.utils.data import Dataset
 import json
 import librosa
 
-from features import zero_crossing_rate, extract_rms
+from features import *
 
 
 class Genre(Enum):
@@ -25,9 +25,11 @@ class Genre(Enum):
     HEAVY_ROCK: int=1
     REGGAE: int=2
 
+
 label2genre = {"classical": Genre.CLASSICAL,
                "heavy-rock": Genre.HEAVY_ROCK,
                "reggae": Genre.REGGAE}
+
 
 class Mp3Dataset(Dataset):
     def __init__(self, files_json):
@@ -72,7 +74,7 @@ class MusicClassifier:
     You should Implement your classifier object here
     """
 
-    def __init__(self, opt_params: OptimizationParameters = None, encoding_dim=261, **kwargs):
+    def __init__(self, opt_params: OptimizationParameters = None, encoding_dim=5461, **kwargs):
         """
         This defines the classifier object.
         - You should define your weights and biases as class components here.
@@ -87,6 +89,7 @@ class MusicClassifier:
         self.b = torch.zeros((1, self.num_classes))
 
         self.loss = list()
+        self.data_sr = 22050
 
     def exctract_feats(self, wavs: torch.Tensor):
         """
@@ -95,10 +98,19 @@ class MusicClassifier:
 
         Return: [batch, encoding_dim]
         """
-        zcr = zero_crossing_rate(wavs)
-        rms_per_window = extract_rms(wavs)
-        feats = torch.concat((zcr.unsqueeze(1), rms_per_window), dim=-1)
+        RMS_EMPIRICAL_MEAN = 0.1
+        RMS_EMPIRICAL_STD = 0.07
+        ZCR_EMPIRICAL_MEAN = 0.1
+        ZCR_EMPIRICAL_STD = 0.1
+        MFCC_EMPIRICAL_MEAN = -2.0
+        MFCC_EMPIRICAL_STD = 60.0
+
+        zcr = (zero_crossing_rate(wavs) - ZCR_EMPIRICAL_MEAN) / ZCR_EMPIRICAL_STD
+        rms_per_window = (extract_rms(wavs) - RMS_EMPIRICAL_MEAN) / RMS_EMPIRICAL_STD
+        mfccs = (extract_mfccs(wavs, self.data_sr) - MFCC_EMPIRICAL_MEAN) / MFCC_EMPIRICAL_STD
+        feats = torch.concat((zcr.unsqueeze(1), rms_per_window, mfccs), dim=-1)
         return feats
+
 
     def forward(self, feats: torch.Tensor) -> tp.Any:
         """
@@ -130,16 +142,15 @@ class MusicClassifier:
         self.W -= self.opt_params.learning_rate * self.grad[:, :-1].T
         self.b -= self.opt_params.learning_rate * self.grad[:, -1].unsqueeze(0)
 
-
-
-        # I didnt updated the biased, kept them 0 for now.
-
+    # def validation_step(self, raw_features):
+    #     features = self.exctract_feats(raw_features['waveform'])
+    #     y_preds = self.forward(features)
 
     def train_step(self, raw_features):
         features = self.exctract_feats(raw_features['waveform'])
         y_preds = self.forward(features)
 
-        labels_onehot = torch.nn.functional.one_hot(raw_features['label'])
+        labels_onehot = torch.nn.functional.one_hot(raw_features['label'], num_classes=len(label2genre))
 
         loss = -torch.log((y_preds * labels_onehot).sum(dim=-1)).mean()
         accuracy = (torch.argmax(y_preds, dim=-1) == raw_features['label']).float().mean()
@@ -147,6 +158,27 @@ class MusicClassifier:
         self.backward(features, output_scores=y_preds, labels=raw_features['label'])
 
         return loss, accuracy
+
+    def validation_forward(self, raw_features):
+        features = self.exctract_feats(raw_features['waveform'])
+        y_preds = self.forward(features)
+
+        n_classes = len(label2genre)
+        labels_onehot = torch.nn.functional.one_hot(raw_features['label'], num_classes=n_classes)
+
+        loss = -torch.log((y_preds * labels_onehot).sum(dim=-1)).mean()
+        hits = torch.argmax(y_preds, dim=-1) == raw_features['label']
+
+        genre_hits = [None for _ in range(n_classes)]
+        for c in range(n_classes):
+            genre_hits[c] = hits[raw_features['label'] == c]
+
+
+
+        # accuracy per class
+        # TODO
+        return loss, hits, genre_hits
+
 
     def get_weights_and_biases(self):
         """
@@ -187,6 +219,35 @@ class MusicClassifier:
 
 
 class ClassifierHandler:
+    @staticmethod
+    def run_validation(test_dataloader, epoch, music_classifier):
+        # validation
+        n_classes = len(label2genre)
+        val_tq = tqdm(test_dataloader, desc=f'VALIDATION: Epoch {epoch}')
+        all_hits = None
+        all_genre_hits = [None for _ in range(n_classes)]
+        all_losses = []
+        for raw_features in val_tq:  # [b, T]
+            loss, hits, genre_hits = music_classifier.validation_forward(raw_features)
+
+            all_losses.append(loss)
+            if all_hits is None:
+                all_hits = hits
+            else:
+                all_hits = torch.concat((all_hits, hits))
+
+            for c in range(n_classes):
+                if all_genre_hits[c] is None:
+                    all_genre_hits[c] = genre_hits[c]
+                else:
+                    all_genre_hits[c] = torch.concat((all_genre_hits[c], genre_hits[c]))
+
+        print(f'loss: {np.mean(all_losses)}  acc: {all_hits.float().mean()}')
+
+        for c in range(n_classes):
+            print(f'genre: {c}  accuracy: {all_genre_hits[c].float().mean()}')
+
+
 
     @staticmethod
     def train_new_model(training_parameters: TrainingParameters) -> MusicClassifier:
@@ -201,9 +262,16 @@ class ClassifierHandler:
             batch_size=training_parameters.batch_size,
             shuffle=True)
 
+        test_dataset = Mp3Dataset("jsons/test.json")
+        test_dataloader = torch.utils.data.DataLoader(
+            test_dataset,
+            batch_size=training_parameters.batch_size,
+            shuffle=False)
+
         music_classifier = MusicClassifier(opt_params)
 
         for epoch in range(training_parameters.num_epochs):
+
             tq = tqdm(train_dataloader, desc=f'Epoch {epoch}')
             for raw_features in tq: # [b, T]
                 loss, accuracy = music_classifier.train_step(raw_features)
@@ -212,6 +280,13 @@ class ClassifierHandler:
                                W_norm=f"{music_classifier.W.norm():.4f}",
                                b_norm=f"{music_classifier.b.norm():.4f}",
                                grad_norm=f"{music_classifier.grad.norm():.4f}")
+
+            ClassifierHandler.run_validation(test_dataloader, epoch, music_classifier)
+
+
+
+
+
 
 
         music_classifier.save("model")
@@ -224,5 +299,6 @@ class ClassifierHandler:
         """
         music_classifier = MusicClassifier()
         music_classifier.load("model")
+        return music_classifier
 
     

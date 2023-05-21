@@ -17,6 +17,13 @@ def extract_rms(wavs: torch.Tensor):
     rms = librosa.feature.rms(y=wavs[None, :, :], frame_length=FRAME_SIZE, hop_length=HOP_LENGTH)[0]
     return torch.from_numpy(rms[:, 0, :])
 
+
+def extract_mfccs(wavs: torch.Tensor, sr: int):
+    FRAME_SIZE = 2048
+    HOP_LENGTH = 1024
+    mfccs = librosa.feature.mfcc(y=wavs.numpy(), sr=sr, win_length=FRAME_SIZE, hop_length=HOP_LENGTH)
+    return torch.from_numpy(mfccs.reshape((mfccs.shape[0], -1)))
+
 if __name__ == "__main__":
     path = "./parsed_data/classical/test/1.mp3"
     y, sr = torchaudio.load(path, format='mp3')
