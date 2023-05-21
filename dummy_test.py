@@ -1,4 +1,7 @@
+import torch
+
 from genre_classifier import *
+import torchaudio
 
 if __name__ == "__main__":
 
@@ -7,7 +10,7 @@ if __name__ == "__main__":
     # check that training is working
     TRAIN = False
     if TRAIN:
-        training_params = TrainingParameters(batch_size=32, num_epochs=3)
+        training_params = TrainingParameters(batch_size=32, num_epochs=20)
         try:
             handler.train_new_model(training_params)
             print("Train dummy test passed")
@@ -21,8 +24,16 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Get pretrained object dummy test failed, exception:\n{e}")
 
-    # feel free to add tests here. 
-    # We will not be giving score to submitted tests.
-    # You may (and recommended to) share tests with one another.
+    # check that classification works
+    try:
+        y1, sr1 = torchaudio.load('parsed_data/heavy-rock/test/4.mp3')
+        y2, sr2 = torchaudio.load('parsed_data/classical/test/7.mp3')
+        y = torch.stack((y1, y2), dim=0)
+        preds = music_classifier.classify(y)
+        print("Classify test passed")
+    except Exception as e:
+        print(f"Classify test failed, exception:\n{e}")
+
+
 
     

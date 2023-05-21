@@ -1,7 +1,5 @@
 import torch
-import torchaudio
 import librosa
-import numpy as np
 
 
 def zero_crossing_rate(audio: torch.Tensor):
@@ -24,10 +22,6 @@ def extract_mfccs(wavs: torch.Tensor, sr: int):
     mfccs = librosa.feature.mfcc(y=wavs.numpy(), sr=sr, win_length=FRAME_SIZE, hop_length=HOP_LENGTH)
     return torch.from_numpy(mfccs.reshape((mfccs.shape[0], -1)))
 
-if __name__ == "__main__":
-    path = "./parsed_data/classical/test/1.mp3"
-    y, sr = torchaudio.load(path, format='mp3')
-    print(zero_crossing_rate(y))
 
 
 
