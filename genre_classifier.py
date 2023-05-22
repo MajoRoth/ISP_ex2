@@ -52,7 +52,7 @@ class TrainingParameters:
     default values (so run won't break when we test this).
     """
     batch_size: int = 32
-    num_epochs: int = 100
+    num_epochs: int = 20
     train_json_path: str = "jsons/train.json" # you should use this file path to load your train data
     test_json_path: str = "jsons/test.json" # you should use this file path to load your test data
     # other training hyper parameters
